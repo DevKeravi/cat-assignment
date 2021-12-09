@@ -1,0 +1,27 @@
+:root {
+  --border-color: #e3e6e4;
+  --background-color: #c3c7ca;
+  --list-background-color: #fff;
+  --list-border-color: #e3e6e4;
+}
+* {
+  box-sizing: border-box;
+}
+
+.global-header {
+  background-color: skyblue;
+}
+
+.card-container {
+  border: 1px solid var(--list-border-color);
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.card-container.collapsed :hover {
+  cursor: pointer;
+  background-color: var(--background-color);
+}
